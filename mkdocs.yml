@@ -1,0 +1,43 @@
+site_name: Southampton Open Wireless Network
+site_url: https://sown.github.io/docs/
+repo_name: sown/docs
+repo_url: https://github.com/sown/docs
+theme:
+  name: material
+  favicon: images/logo-small.png
+  feature:
+    tabs: true
+  features:
+    - search.suggest
+  font:
+    text: Open Sans
+  logo: images/logo-white-v2.png
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+copyright: |
+    Copyright &copy; SOWN contributors
+    <br>
+    This work is licensed under a
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+      Creative Commons Attribution-ShareAlike 4.0 International License
+    </a>.
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - search
+  
