@@ -5,9 +5,8 @@ repo_url: https://github.com/sown/docs
 theme:
   name: material
   favicon: images/logo-small.png
-  feature:
-    tabs: true
   features:
+    - navigation.tabs
     - search.suggest
   font:
     text: Open Sans

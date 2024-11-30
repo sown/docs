@@ -16,7 +16,7 @@ Group names must be in the format: `<app-name>:<role>`, e.g `kmicms:superuser`.
 
 ## Hosting
 
-SSO is hosted on [`containers-secure`](./servers/containers.md#containers-secure-containers-3).
+SSO is hosted on [`containers-secure`](../infrastructure/servers/containers.md#containers-secure-containers-3).
 
 It is not currently managed by ansible.
 
